@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'g70*fa0gsvccnsq_rh)r9+p^rz3%tn2@xzm^sa9h97wf@3#=$s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*",]
 
@@ -40,14 +40,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'chat',
     'applets',
-    'mypage'
+    'mypage',
+    'wechat',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'TotalEngineering.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'totalEngineering',
+        'NAME': 'totalengineering',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD':'wen126456',

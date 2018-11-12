@@ -1,0 +1,578 @@
+2018-11-06 16:21:36,079- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-06 16:21:36,079- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-06 16:21:36,095- INFO - Listening on TCP address 0.0.0.0:8001
+2018-11-06 16:23:36,954- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-06 16:23:36,954- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-06 16:23:36,954- INFO - Listening on TCP address 0.0.0.0:8001
+2018-11-06 16:23:54,282- WARNING - Forbidden (CSRF cookie not set.): /iloveyjj/a
+2018-11-06 16:24:08,110- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-06 16:24:08,110- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-06 16:24:08,110- INFO - Listening on TCP address 0.0.0.0:8001
+2018-11-06 16:24:22,938- WARNING - Forbidden (CSRF cookie not set.): /iloveyjj/a
+2018-11-06 16:47:43,095- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-06 16:47:43,095- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-06 16:47:43,095- INFO - Listening on TCP address 0.0.0.0:8001
+2018-11-06 16:47:55,157- WARNING - Forbidden (CSRF cookie not set.): /iloveyjj/a
+2018-11-11 18:34:13,141- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:34:13,141- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-11 18:34:13,141- CRITICAL - Listen failure: Couldn't listen on 0.0.0.0:8001: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。.
+2018-11-11 18:34:30,188- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:34:30,204- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-11 18:34:30,204- INFO - Listening on TCP address 0.0.0.0:8001
+2018-11-11 18:35:32,282- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:35:32,282- INFO - Configuring endpoint tcp:port=8001:interface=0.0.0.0
+2018-11-11 18:35:32,282- INFO - Listening on TCP address 0.0.0.0:8001
+2018-11-11 18:36:17,220- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:36:17,220- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:36:17,220- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:36:25,063- WARNING - Not Found: /iloveyjj/love.mp3
+2018-11-11 18:36:46,391- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:36:46,391- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:36:46,391- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:36:55,751- WARNING - Not Found: /iloveyjj/love.mp3
+2018-11-11 18:37:11,251- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 10, in login
+    return HttpResponse('ok')
+NameError: name 'HttpResponse' is not defined
+2018-11-11 18:38:41,517- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:38:41,517- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:38:41,517- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:38:46,688- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 12, in login
+    return HttpResponse('ok')
+NameError: name 'HttpResponse' is not defined
+2018-11-11 18:39:42,563- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:39:42,563- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:39:42,563- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:39:47,001- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    logging.info("body is " + body)
+NameError: name 'logging' is not defined
+2018-11-11 18:40:41,110- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    logging.info("body is " + body)
+NameError: name 'logging' is not defined
+2018-11-11 18:41:48,860- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:41:48,860- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:41:48,860- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:41:59,970- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:41:59,970- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:41:59,970- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:42:02,423- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    logging.info("body is " + body)
+NameError: name 'logging' is not defined
+2018-11-11 18:45:24,626- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    logging.info("body is " + body)
+NameError: name 'logging' is not defined
+2018-11-11 18:50:27,642- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    logging.info("body is " + body)
+NameError: name 'logging' is not defined
+2018-11-11 18:54:13,454- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:54:13,454- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:54:13,454- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:54:20,532- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    js_code = json.loads(body)
+NameError: name 'json' is not defined
+2018-11-11 18:55:07,032- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:55:07,048- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:55:07,048- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:55:12,220- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 14, in login
+    js_code = json.loads(body)
+NameError: name 'json' is not defined
+2018-11-11 18:55:39,735- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:55:39,735- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:55:39,735- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:55:48,532- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 19, in login
+    js_result = js_code['code']
+TypeError: string indices must be integers
+2018-11-11 18:57:20,595- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:57:20,595- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:57:20,595- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:57:23,079- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 19, in login
+    js_result = js_code['code']
+TypeError: string indices must be integers
+2018-11-11 18:57:45,376- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:57:45,376- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:57:45,376- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:57:51,813- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 15, in login
+    js_code = json.loads(body)
+NameError: name 'json' is not defined
+2018-11-11 18:58:14,282- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:58:14,282- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:58:14,282- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:58:17,298- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 18, in login
+    print("js_code is " + js_code)
+TypeError: must be str, not dict
+2018-11-11 18:58:51,985- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:58:51,985- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:58:51,985- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:58:57,454- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 18:58:57,454- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 18:58:57,454- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 18:59:01,313- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 30, in login
+    result = requests.post(url,postData)
+NameError: name 'requests' is not defined
+2018-11-11 19:00:05,517- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 19:00:05,532- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 19:00:05,532- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 19:00:08,095- DEBUG - Starting new HTTPS connection (1): api.weixin.qq.com
+2018-11-11 19:00:08,657- DEBUG - https://api.weixin.qq.com:443 "POST /sns/jscode2session HTTP/1.1" 200 83
+2018-11-11 19:00:08,657- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 41, in login
+    session = base64.b64encode(s1)
+NameError: name 'base64' is not defined
+2018-11-11 19:00:22,642- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 19:00:22,642- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 19:00:22,642- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 19:00:25,642- DEBUG - Starting new HTTPS connection (1): api.weixin.qq.com
+2018-11-11 19:00:26,204- DEBUG - https://api.weixin.qq.com:443 "POST /sns/jscode2session HTTP/1.1" 200 83
+2018-11-11 19:00:26,345- ERROR - Internal Server Error: /iloveyjj/a
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\mypage\views.py", line 64, in login
+    response = HttpResponse(content=json.dumps(return_data), content_type='application/json;charset = utf-8',status='200',reason='success',charset='utf-8')
+NameError: name 'HttpResponse' is not defined
+2018-11-11 19:00:54,423- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 19:00:54,423- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 19:00:54,423- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 19:00:57,188- DEBUG - Starting new HTTPS connection (1): api.weixin.qq.com
+2018-11-11 19:00:57,735- DEBUG - https://api.weixin.qq.com:443 "POST /sns/jscode2session HTTP/1.1" 200 83
+2018-11-11 19:01:41,767- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 19:01:41,767- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 19:01:41,782- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 19:01:44,532- DEBUG - Starting new HTTPS connection (1): api.weixin.qq.com
+2018-11-11 19:01:45,188- DEBUG - https://api.weixin.qq.com:443 "POST /sns/jscode2session HTTP/1.1" 200 83
+2018-11-11 19:01:45,188- INFO - the result is{"session_key":"\/S4+SCSxaeSVv8IKwzlB+w==","openid":"oxrzq4tDDtetVkMnGJf87Thp34lk"}
+2018-11-11 19:01:45,188- INFO - get session_key succeed!
+2018-11-11 19:01:45,188- INFO - get openid succeed!
+2018-11-11 19:22:53,173- WARNING - Not Found: /
+2018-11-11 19:34:53,704- WARNING - Not Found: /
+2018-11-11 21:51:15,616- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 21:51:15,616- INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2018-11-11 21:51:15,618- INFO - Listening on TCP address 127.0.0.1:8000
+2018-11-11 21:51:34,719- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 21:51:34,721- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 21:51:34,721- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 21:52:57,782- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 21:52:57,783- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 21:52:57,784- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 21:53:03,720- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    person = Person(session = "1", session_key='1', openid='1')
+TypeError: __init__() got an unexpected keyword argument 'session'
+2018-11-11 23:18:48,553- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:18:48,554- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:18:48,555- CRITICAL - Listen failure: Couldn't listen on 0.0.0.0:80: [WinError 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。.
+2018-11-11 23:19:06,764- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:19:06,765- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:19:06,767- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:21:22,508- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    person = Person(session = "1", session_key='1', openid='1')
+TypeError: __init__() got an unexpected keyword argument 'session'
+2018-11-11 23:21:39,697- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:21:39,698- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:21:39,700- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:22:23,421- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    person = Person()
+TypeError: __init__() missing 1 required positional argument: 'arg'
+2018-11-11 23:22:51,903- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:22:51,907- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:22:51,909- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:22:57,824- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 17, in login
+    person.save()
+AttributeError: 'Person' object has no attribute 'save'
+2018-11-11 23:25:03,045- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:25:03,046- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:25:03,048- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:40:46,650- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:40:46,651- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:40:46,652- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:42:07,754- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:42:07,755- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:42:07,756- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:42:14,175- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    person = Person(session = "1", session_key='1', openid='1')
+TypeError: __init__() got an unexpected keyword argument 'session'
+2018-11-11 23:49:14,897- WARNING - Not Found: /
+2018-11-11 23:49:34,026- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:49:34,027- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:49:34,029- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:49:40,407- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    Person.objects.create(session = "1", session_key='1', openid='1')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 415, in create
+    obj = self.model(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'session'
+2018-11-11 23:50:00,780- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:50:00,781- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:50:00,782- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:50:04,147- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'gender' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    Person.objects.create(session = "1", session_key='1', openid='1')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'gender' cannot be null")
+2018-11-11 23:50:40,711- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:50:40,712- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:50:40,713- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:50:47,189- ERROR - Internal Server Error: /wechat/login
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'gender' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\code_for_python\TotalEngineering\wechat\views.py", line 16, in login
+    Person.objects.create(session = "1", session_key='1', openid='1')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 417, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\models\sql\compiler.py", line 1285, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 170, in execute
+    result = self._query(query)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\cursors.py", line 328, in _query
+    conn.query(q)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 893, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1103, in _read_query_result
+    result.read()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1396, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 1059, in _read_packet
+    packet.check_error()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'gender' cannot be null")
+2018-11-11 23:51:33,768- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-11 23:51:33,769- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-11 23:51:33,771- INFO - Listening on TCP address 0.0.0.0:80
+2018-11-11 23:51:41,019- DEBUG - Starting new HTTPS connection (1): api.weixin.qq.com
+2018-11-11 23:51:41,813- DEBUG - https://api.weixin.qq.com:443 "POST /sns/jscode2session HTTP/1.1" 200 82
+2018-11-11 23:51:41,824- INFO - the result is{"session_key":"JOvdgxiaT23rDjhTwHamug==","openid":"oxrzq4tDDtetVkMnGJf87Thp34lk"}
+2018-11-11 23:51:41,825- INFO - get session_key succeed!
+2018-11-11 23:51:41,825- INFO - get openid succeed!
+2018-11-12 00:42:23,787- WARNING - Not Found: /
+2018-11-12 03:22:09,901- WARNING - Not Found: /
+2018-11-12 03:31:19,788- WARNING - Not Found: /
+2018-11-12 03:37:38,757- WARNING - Not Found: /
+2018-11-12 03:56:32,755- WARNING - Not Found: /
+2018-11-12 04:16:44,592- WARNING - Not Found: /
+2018-11-12 04:22:35,131- WARNING - Not Found: /
+2018-11-12 04:47:10,742- WARNING - Not Found: /
+2018-11-12 05:10:20,525- WARNING - Not Found: /cf_scripts/scripts/ajax/ckeditor/plugins/filemanager/filemanager.cfc
+2018-11-12 06:00:14,523- WARNING - Not Found: /builder/
+2018-11-12 06:11:46,905- WARNING - Not Found: /
+2018-11-12 06:32:24,232- WARNING - Not Found: /
+2018-11-12 07:15:13,278- WARNING - Not Found: /
+2018-11-12 07:23:14,041- WARNING - Not Found: /
+2018-11-12 07:24:28,600- WARNING - Not Found: /
+2018-11-12 07:25:55,224- WARNING - Not Found: /
+2018-11-12 07:33:22,043- WARNING - Not Found: /
+2018-11-12 07:57:23,784- WARNING - Not Found: http://www.baidu.com/cache/global/img/gs.gif
+2018-11-12 08:05:48,283- WARNING - Not Found: http://www.baidu.com/cache/global/img/gs.gif
+2018-11-12 08:56:28,560- WARNING - Not Found: /
+2018-11-12 09:56:44,041- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-11-12 09:56:44,047- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2018-11-12 09:56:44,049- INFO - Listening on TCP address 0.0.0.0:80

@@ -13,14 +13,21 @@
 <script>
     var roomName = {{ room_name_json }};
 
+    var rootName = "root"
+
+    var wsName = 'ws://' + window.location.host +':8001/ws/chat/' + roomName + '/';
+    console.log("socket name is " + wsName);
+
     var chatSocket = new WebSocket(
         'ws://' + window.location.host +
         ':8001/ws/chat/' + roomName + '/');
 
     chatSocket.onmessage = function(e) {
         var data = JSON.parse(e.data);
+        // console.log("收到的data是： ", data['message'], data['user'])
         var message = data['message'];
-        document.querySelector('#chat-log').value += (message + '\n');
+        var user = data['user'];
+        document.querySelector('#chat-log').value += (user + ":" + message + '\n');
     };
 
     chatSocket.onclose = function(e) {
@@ -37,8 +44,10 @@
     document.querySelector('#chat-message-submit').onclick = function(e) {
         var messageInputDom = document.querySelector('#chat-message-input');
         var message = messageInputDom.value;
+        var user = user;
         chatSocket.send(JSON.stringify({
-            'message': message
+            'message': message,
+            'user' : rootName
         }));
 
         messageInputDom.value = '';
