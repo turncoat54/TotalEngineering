@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'applets',
     'mypage',
     'wechat',
+    'wx_search'
 ]
 
 MIDDLEWARE = [

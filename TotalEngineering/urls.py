@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'chat/', include(("chat.urls",'chat'))),
     path(r'iloveyjj/', include(("mypage.urls",'mypage'))),
-    path(r'wechat/',include(("wechat.urls",'wechat')))
+    path(r'wechat/',include(("wechat.urls",'wechat'))),
+    path(r'wx_search/',include(("wx_search.urls",'wx_search'))),
 ]
