@@ -1,0 +1,92 @@
+2019-05-16 03:22:23,741 - INFO - server - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:22:23,742 - INFO - server - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 03:22:23,743 - INFO - server - Listening on TCP address 0.0.0.0:8000
+[2019/05/16 03:22:31] HTTP GET /iloveyjj/ 200 [0.01, 172.27.145.68:60738]
+Not Found: /iloveyjj/love.mp3
+2019-05-16 03:37:48,922 - INFO - server - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:37:48,923 - INFO - server - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 03:37:48,924 - INFO - server - Listening on TCP address 0.0.0.0:8000
+[2019/05/16 03:37:55] HTTP GET /iloveyjj/ 200 [0.01, 172.27.145.68:60863]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/default.css 304 [0.01, 172.27.145.68:60863]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jquery.min.js 304 [0.00, 172.27.145.68:60862]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jscex.min.js 304 [0.01, 172.27.145.68:60865]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jscex-parser.js 304 [0.01, 172.27.145.68:60864]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jscex-async.min.js 304 [0.01, 172.27.145.68:60863]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jscex-async-powerpack.min.js 304 [0.01, 172.27.145.68:60862]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jscex-jit.js 304 [0.01, 172.27.145.68:60866]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/jscex-builderbase.min.js 304 [0.01, 172.27.145.68:60867]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/functions.js 304 [0.00, 172.27.145.68:60865]
+[2019/05/16 03:37:55] HTTP GET /static/Love_files/love.js 304 [0.00, 172.27.145.68:60863]
+Not Found: /iloveyjj/love.mp3
+[2019/05/16 03:37:55] HTTP GET /iloveyjj/love.mp3 404 [0.01, 172.27.145.68:60863]
+[2019/05/16 03:39:06] HTTP GET /iloveyjj/ 200 [0.00, 172.27.145.68:60918]
+Not Found: /iloveyjj/love.mp3
+[2019/05/16 03:39:06] HTTP GET /iloveyjj/love.mp3 404 [0.01, 172.27.145.68:60918]
+[2019/05/16 14:16:06] HTTP GET /iloveyjj/ 200 [0.01, 172.26.94.142:58249]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/default.css 304 [0.00, 172.26.94.142:58249]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jquery.min.js 304 [0.00, 172.26.94.142:58250]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jscex.min.js 304 [0.00, 172.26.94.142:58250]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jscex-parser.js 304 [0.01, 172.26.94.142:58249]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jscex-jit.js 304 [0.01, 172.26.94.142:58251]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jscex-builderbase.min.js 304 [0.01, 172.26.94.142:58252]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jscex-async.min.js 304 [0.01, 172.26.94.142:58253]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/jscex-async-powerpack.min.js 304 [0.01, 172.26.94.142:58250]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/functions.js 304 [0.01, 172.26.94.142:58254]
+[2019/05/16 14:16:06] HTTP GET /static/Love_files/love.js 304 [0.00, 172.26.94.142:58249]
+Not Found: /iloveyjj/love.mp3
+[2019/05/16 14:16:06] HTTP GET /iloveyjj/love.mp3 404 [0.01, 172.26.94.142:58249]
+Not Found: /favicon.ico
+[2019/05/16 14:16:06] HTTP GET /favicon.ico 404 [0.01, 172.26.94.142:58249]
+[2019/05/16 14:17:40] HTTP GET /iloveyjj/ 200 [0.00, 172.26.94.142:58311]
+Not Found: /iloveyjj/love.mp3
+[2019/05/16 14:17:42] HTTP GET /iloveyjj/love.mp3 404 [0.01, 172.26.94.142:58311]
+[2019/05/16 14:24:36] HTTP GET /iloveyjj/ 200 [0.00, 172.26.94.142:58411]
+Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 51, in _create_cache
+    backend_cls = import_string(backend)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'django_redis'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 285, in check_token
+    if login.check_token(token):
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/log_in.py", line 60, in check_token
+    last_token = cache.get(username)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 99, in __getattr__
+    return getattr(caches[DEFAULT_CACHE_ALIAS], name)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 80, in __getitem__
+    cache = _create_cache(alias)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 54, in _create_cache
+    "Could not find backend '%s': %s" % (backend, e))
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find backend 'django_redis.cache.RedisCache': No module named 'django_redis'
+[2019/05/16 14:25:52] HTTP POST /wx_search/check_token 500 [0.16, 172.26.94.142:58585]
+Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 282, in check_token
+    token = json_result['token']
+KeyError: 'token'

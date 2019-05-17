@@ -279,10 +279,12 @@ def check_token(request):
 		body = str(body, encoding = "utf-8")
 	
 		json_result = json.loads(body)
+	#	print("json_result is", json_result)
 		token = json_result['token']
 
 		# print("token is "+ token)
 		if login.check_token(token):
+	#		print("token is valid")
 			username = login.get_username(token)
 			token = login.create_token(username)
 			return_data={

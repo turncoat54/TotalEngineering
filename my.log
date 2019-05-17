@@ -5919,3 +5919,178 @@ Traceback (most recent call last):
   File "C:\code_for_python\TotalEngineering\wx_search\views.py", line 75, in search_by_name
     choose = json_result['choose']
 KeyError: 'choose'
+2019-05-16 03:15:22,927- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:15:22,930- INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2019-05-16 03:15:22,932- INFO - Listening on TCP address 127.0.0.1:8000
+2019-05-16 03:18:13,251- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:18:13,251- INFO - Configuring endpoint tcp:port=80:interface=0.0.0.0
+2019-05-16 03:18:13,253- CRITICAL - Listen failure: Couldn't listen on 0.0.0.0:80: [Errno 13] Permission denied.
+2019-05-16 03:18:22,100- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:18:22,101- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 03:18:22,102- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-16 03:19:54,882- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 03:19:54,993- WARNING - Not Found: /favicon.ico
+2019-05-16 03:21:12,500- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 03:22:23,741- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:22:23,742- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 03:22:23,743- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-16 03:22:31,280- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 03:37:48,922- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 03:37:48,923- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 03:37:48,924- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-16 03:37:55,517- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 03:39:06,866- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 14:16:06,631- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 14:16:06,744- WARNING - Not Found: /favicon.ico
+2019-05-16 14:17:42,402- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 14:25:52,376- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 51, in _create_cache
+    backend_cls = import_string(backend)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'django_redis'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 285, in check_token
+    if login.check_token(token):
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/log_in.py", line 60, in check_token
+    last_token = cache.get(username)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 99, in __getattr__
+    return getattr(caches[DEFAULT_CACHE_ALIAS], name)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 80, in __getitem__
+    cache = _create_cache(alias)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 54, in _create_cache
+    "Could not find backend '%s': %s" % (backend, e))
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find backend 'django_redis.cache.RedisCache': No module named 'django_redis'
+2019-05-16 14:25:56,975- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 282, in check_token
+    token = json_result['token']
+KeyError: 'token'
+2019-05-16 14:26:43,008- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 14:26:43,009- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 14:26:43,010- CRITICAL - Listen failure: Couldn't listen on 0.0.0.0:8000: [Errno 98] Address already in use.
+2019-05-16 14:31:55,326- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 14:31:55,326- INFO - Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2019-05-16 14:31:55,328- INFO - Listening on TCP address 127.0.0.1:8000
+2019-05-16 14:33:22,284- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 14:33:22,285- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 14:33:22,287- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-16 14:33:23,286- WARNING - Not Found: /iloveyjj/love.mp3
+2019-05-16 14:33:26,096- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 282, in check_token
+    token = json_result['token']
+KeyError: 'token'
+2019-05-16 14:33:29,219- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 51, in _create_cache
+    backend_cls = import_string(backend)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 944, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'django_redis'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 285, in check_token
+    if login.check_token(token):
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/log_in.py", line 60, in check_token
+    last_token = cache.get(username)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 99, in __getattr__
+    return getattr(caches[DEFAULT_CACHE_ALIAS], name)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 80, in __getitem__
+    cache = _create_cache(alias)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/cache/__init__.py", line 54, in _create_cache
+    "Could not find backend '%s': %s" % (backend, e))
+django.core.cache.backends.base.InvalidCacheBackendError: Could not find backend 'django_redis.cache.RedisCache': No module named 'django_redis'
+2019-05-16 14:33:32,150- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 282, in check_token
+    token = json_result['token']
+KeyError: 'token'
+2019-05-16 14:35:05,013- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 14:35:05,014- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 14:35:05,016- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-16 14:35:15,962- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 282, in check_token
+    token = json_result['token']
+KeyError: 'token'
+2019-05-16 14:37:14,450- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 14:37:14,451- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 14:37:14,454- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-16 14:37:23,416- ERROR - Internal Server Error: /wx_search/check_token
+Traceback (most recent call last):
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/wzr/totalengineering/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/wzr/totalengineering/TotalEngineering/wx_search/views.py", line 283, in check_token
+    token = json_result['token']
+KeyError: 'token'
+2019-05-16 14:42:16,144- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-16 14:42:16,145- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-16 14:42:16,147- INFO - Listening on TCP address 0.0.0.0:8000
+2019-05-17 06:39:22,673- INFO - HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2019-05-17 06:39:22,674- INFO - Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2019-05-17 06:39:22,675- INFO - Listening on TCP address 0.0.0.0:8000
